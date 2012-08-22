@@ -4,7 +4,17 @@ Bigdump
 
 Simple python module for storing and retrieving lots of data on the filesystem.
 
-Usage::
+Installation
+============
+
+Easiest using pip::
+
+	pip install -e git+https://github.com/0x01/bigdump.git#egg=bigdump
+
+Usage
+=====
+
+For example::
 
     >>> import bigdump
     >>> d = bigdump.Bigdump('my_data')
@@ -49,6 +59,6 @@ is better to use a loop::
         # do something with doc
         print doc
 
-
-
 Have fun!
+
+
