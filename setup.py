@@ -10,5 +10,5 @@ setup(
     url='https://github.com/0x01/bigdump',
     license='LICENSE.txt',
     description='Store a lot of data on the filesystem',
-    long_description=open('README.txt').read()
+    long_description=open('README.rst').read()
 )
