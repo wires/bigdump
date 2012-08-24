@@ -33,7 +33,7 @@ class Bigdump:
 			# try to create the directories
 			os.makedirs(path)
 			pass
-		except error:
+		except os.error:
 			# directory already exists, we don't care
 			pass
 		
